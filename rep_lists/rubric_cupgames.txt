@@ -1,0 +1,56 @@
+# File name patterns for guiding TCOW evaluation.
+# (See pick_represent.py to see how this is processed)
+
+cgt_frames_0002_i1_f100     # no movement yet
+cgt_frames_0002_i3_f100
+cgt_frames_0002_i4_f100     # reveal empty only
+cgt_frames_0002_i6_f100     # reveal empty + labeled snitch
+cgt_frames_0011_i5_f90
+cgt_frames_0011_i6_f90      # reveal empty only
+cgt_frames_0011_i8_f90      # reveal empty + labeled snitch
+cgt_frames_0026_i3_f60      # no movement yet
+cgt_frames_0026_i5_f60
+cgt_frames_0026_i7_f60
+cgt_frames_0026_i9_f60      # reveal empty only
+cgt_frames_0061_i2_f40      # no movement yet, also NL
+cgt_frames_0061_i4_f40      # also NL
+cgt_frames_0061_i5_f40      # also NL
+cgt_frames_0061_i6_f40      # also NL
+cgt_frames_0061_i7_f40      # also NL
+cgt_frames_0065_i2_f80      # only unlabeled movement (still implies MC)
+cgt_frames_0065_i5_f80
+cgt_frames_0065_i8_f80      # reveal empty + labeled snitch
+cgt_frames_0076_i2_f105     # no movement yet
+cgt_frames_0076_i8_f105     # reveal labeled snitch only
+cgt_frames_0092_i2_f80      # no movement yet
+cgt_frames_0092_i4_f80
+cgt_frames_0092_i7_f80
+cgt_frames_0113_i2_f40      # no movement yet, also NL
+cgt_frames_0113_i5_f40      # also NL
+cgt_frames_0113_i7_f40      # also NL
+cgt_frames_0113_i10_f40     # reveal labeled snitch only, also NL
+cgt_frames_0126_i2_f80      # no movement yet
+cgt_frames_0126_i5_f80
+cgt_frames_0126_i7_f80
+cgt_frames_0126_i8_f80      # reveal 1/2 empty only
+cgt_frames_0126_i10_f80     # reveal 1/2 empty + labeled snitch
+cgt_frames_0136_i2_f195     # only empty movement (still implies MC due to IC), also NL
+cgt_frames_0136_i4_f195     # reveal labeled snitch only, also NL
+cgt_frames_0137_i1_f60      # no movement yet, also NL
+cgt_frames_0137_i3_f60      # also NL
+cgt_frames_0137_i5_f60      # also NL
+cgt_frames_0137_i7_f60      # reveal 2/2 empty only, also NL
+cgt_frames_0154_i2_f60      # only unlabeled movement (still implies MC), also NL
+cgt_frames_0154_i4_f60      # also NL
+cgt_frames_0154_i5_f60      # also NL
+cgt_frames_0154_i7_f60      # reveal empty only, also NL
+cgt_frames_0154_i9_f60      # reveal empty + labeled snitch, also NL
+cgt_frames_0172_i2_f20      # only unlabeled movement (still implies MC)
+cgt_frames_0172_i3_f20
+cgt_frames_0172_i4_f20
+cgt_frames_0172_i5_f20      # reveal empty + labeled snitch at once at end
+cgt_frames_0172_i7_f20      # reveal empty + labeled snitch in middle, then keep shuffling
+cgt_frames_0211_i1_f90      # no movement yet
+cgt_frames_0211_i4_f90
+cgt_frames_0211_i7_f90      # reveal empty only
+cgt_frames_0211_i9_f90      # reveal empty + labeled snitch

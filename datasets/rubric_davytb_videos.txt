@@ -1,0 +1,46 @@
+# Relative paths to test set examples for TCOW Rubric benchmark.
+# Entries here can either be a single video, or a directory containing images.
+# (See data.py to see how this is processed)
+
+rubric/davis_2017/test_giant-slalom
+rubric/davis_2017/test_people-sunset
+rubric/davis_2017/test_salsa1
+rubric/davis_2017/test_salsa2
+rubric/davis_2017/test_salsa3
+rubric/davis_2017/test_subway1
+rubric/davis_2017/test_subway2
+rubric/davis_2017/test_subway3
+rubric/davis_2017/train_bmx-bumps
+rubric/davis_2017/train_dancing
+rubric/davis_2017/train_lindy-hop1
+rubric/davis_2017/train_lindy-hop2
+rubric/davis_2017/train_lindy-hop3
+rubric/davis_2017/train_rhino
+rubric/davis_2017/train_scooter-board
+rubric/davis_2017/train_soccerball
+rubric/davis_2017/val_bmx-trees
+rubric/davis_2017/val_india1
+rubric/davis_2017/val_india2
+rubric/davis_2017/val_india3
+rubric/davis_2017/val_libby
+rubric/davis_2017/val_pigs
+
+rubric/ytvos_2019/val_0a49f5265b
+rubric/ytvos_2019/val_0b97736357
+rubric/ytvos_2019/val_0c04834d61
+rubric/ytvos_2019/val_0e4068b53f
+rubric/ytvos_2019/val_1b85035216
+rubric/ytvos_2019/val_1e0257109e
+rubric/ytvos_2019/val_1e6efb0b5f
+rubric/ytvos_2019/val_3b72dc1941_rev
+rubric/ytvos_2019/val_3f4bacb16a_1
+rubric/ytvos_2019/val_3f2012d518
+rubric/ytvos_2019/val_4bef684040
+rubric/ytvos_2019/val_5c3d2d3155
+rubric/ytvos_2019/val_5d2020eff8
+rubric/ytvos_2019/val_7e625db8c4
+rubric/ytvos_2019/val_24e2b52a4d_fish1
+rubric/ytvos_2019/val_24e2b52a4d_fish2
+rubric/ytvos_2019/val_33c8dcbe09
+rubric/ytvos_2019/val_42d810ba9d
+rubric/ytvos_2019/val_91f5ad52e9

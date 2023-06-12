@@ -1,0 +1,55 @@
+# File name patterns for guiding TCOW evaluation.
+# (See pick_represent.py to see how this is processed)
+
+# DAVIS.
+
+# No (or only partial) occlusion.
+train_rhino_i3_f0
+train_soccerball_i1_f0
+val_bmx-trees_i3_f3         # also NL
+val_libby_i1_f7
+
+# Full occlusion.
+test_giant-slalom_i3_f5
+test_people-sunset_i1_f6
+test_salsa1_i1_f0           # also IOT
+test_salsa2_i2_f0           # also IOT
+test_salsa3_i3_f0           # also IOT
+test_subway1_i3_f0
+test_subway2_i1_f0
+test_subway3_i2_f0
+train_bmx-bumps_i3_f0       # also NL
+train_dancing_i2_f3
+train_lindy-hop1_i2_f0      # also IOT
+train_lindy-hop2_i2_f1      # also IOT
+train_lindy-hop3_i2_f0      # also IOT
+train_scooter-board_i3_f0   # also NL
+val_india1_i2_f3            # also IOT
+val_india2_i2_f3            # also IOT
+val_india3_i2_f3            # also IOT
+val_pigs_i2_f4              # also IOT
+
+# YouTube-VOS.
+
+# No (or only partial) occlusion.
+val_0b97736357_i5_f20
+val_3f2012d518_i3_f8        # also NL
+
+# Full occlusion.
+val_0a49f5265b_i3_f6        # also NL
+val_0c04834d61_i2_f10
+val_0e4068b53f_i2_f35       # also IOT
+val_1b85035216_i5_f6        # also NL
+val_1e0257109e_i2_f10
+val_1e6efb0b5f_i2_f14
+val_3b72dc1941_rev_i1_f8    # also IOT
+val_3f4bacb16a_1_i1_f6      # also IOT
+val_4bef684040_i4_f20       # also IOT
+val_5c3d2d3155_i2_f37
+val_5d2020eff8_i3_f0        # also IOT
+val_7e625db8c4_i3_f0        # also IOT, NL
+val_24e2b52a4d_fish1_i1_f100  # also IOT
+val_24e2b52a4d_fish2_i1_f80   # also IOT
+val_33c8dcbe09_i2_f61       # also IOT
+val_42d810ba9d_i2_f42       # also IOT
+val_91f5ad52e9_i3_f9

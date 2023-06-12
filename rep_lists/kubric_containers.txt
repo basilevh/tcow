@@ -1,0 +1,30 @@
+# File name patterns for guiding TCOW evaluation.
+# (See pick_represent.py to see how this is processed)
+
+kubbench_v3,s0_ku_d0_
+kubbench_v3,s1_ku_d1_
+kubbench_v3,s2_ku_d2_
+kubbench_v3,s3_ku_d3_
+kubbench_v3,s4_ku_d4_
+kubbench_v3,s5_ku_d5_
+kubbench_v3,s6_ku_d6_
+kubbench_v3,s7_ku_d7_
+kubbench_v3,s8_ku_d8_
+kubbench_v3,s9_ku_d9_
+kubbench_v3,s10_ku_d10_
+kubbench_v3,s12_ku_d12_
+kubbench_v3,s13_ku_d13_
+kubbench_v3,s14_ku_d14_
+kubbench_v3,s15_ku_d15_
+kubbench_v3,s16_ku_d16_
+kubbench_v3,s17_ku_d17_
+kubbench_v3,s18_ku_d18_
+kubbench_v3,s19_ku_d19_
+kubbench_v3,s20_ku_d20_
+kubbench_v3,s21_ku_d21_
+kubbench_v3,s22_ku_d22_
+kubbench_v3,s24_ku_d24_
+kubbench_v3,s25_ku_d25_
+kubbench_v3,s26_ku_d26_
+kubbench_v3,s28_ku_d28_
+kubbench_v3,s29_ku_d29_

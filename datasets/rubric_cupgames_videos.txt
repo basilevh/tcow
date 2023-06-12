@@ -1,0 +1,18 @@
+# Relative paths to test set examples for TCOW Rubric benchmark.
+# Entries here can either be a single video, or a directory containing images.
+# (See data.py to see how this is processed)
+
+rubric/dmpt_cgt/cgt_frames_0002.mp4
+rubric/dmpt_cgt/cgt_frames_0011.mp4
+rubric/dmpt_cgt/cgt_frames_0026.mp4
+rubric/dmpt_cgt/cgt_frames_0061.mp4
+rubric/dmpt_cgt/cgt_frames_0065.mp4
+rubric/dmpt_cgt/cgt_frames_0076.mp4
+rubric/dmpt_cgt/cgt_frames_0092.mp4
+rubric/dmpt_cgt/cgt_frames_0113.mp4
+rubric/dmpt_cgt/cgt_frames_0126.mp4
+rubric/dmpt_cgt/cgt_frames_0136.mp4
+rubric/dmpt_cgt/cgt_frames_0137.mp4
+rubric/dmpt_cgt/cgt_frames_0154.mp4
+rubric/dmpt_cgt/cgt_frames_0172.mp4
+rubric/dmpt_cgt/cgt_frames_0211.mp4

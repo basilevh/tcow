@@ -1,0 +1,4 @@
+# File name patterns for guiding TCOW evaluation.
+# (See pick_represent.py to see how this is processed)
+
+kubcon_v10,  # Match in every row via scene_dn.

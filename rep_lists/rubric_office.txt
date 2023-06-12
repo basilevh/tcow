@@ -1,0 +1,81 @@
+# File name patterns for guiding TCOW evaluation.
+# (See pick_represent.py to see how this is processed)
+
+# No (or only partial) occlusion or containment.
+chips1_oof_i5_f40           # 4_home, 1x labeled, also NL
+chips1_oof_i9_f40           # 4_home, 2x labeled, also NL
+pump1_scan_i5_f30           # 4_home, 1x labeled
+pump1_scan_i9_f30           # 4_home, 2x labeled
+
+# Full occlusion or containment.
+teaduck1_i3_f50             # 2_teaduck, no reveal
+teaduck1_i5_f50             # 2_teaduck, labeled reveal end
+teaduck2_i3_f15             # 2_teaduck, no reveal
+teaduck2_i5_f15             # 2_teaduck, unlabeled reveal end
+teaduck3_reveal_i5_f15      # 2_teaduck, unlabeled reveal end
+teaduck3_reveal_i7_f15      # 2_teaduck, labeled reveal end
+teaduck4_reveal_i3_f15      # 2_teaduck, no reveal
+teaduck4_reveal_i5_f15      # 2_teaduck, labeled reveal end
+teaduck4_reveal_i9_f15      # 2_teaduck, 2x labeled reveal
+teaduck5_cammove_i5_f15     # 2_teaduck, no reveal, also NL
+teaduck5_cammove_i7_f15     # 2_teaduck, no reveal, also NL
+teaduck6_teamove_i5_f15     # 2_teaduck, no reveal, also MC
+mugduck1_mugmove_i3_f10     # 3_mugduck, no reveal, maybe HD
+mugduck1_mugmove_i5_f10     # 3_mugduck, no reveal, also MC, maybe HD
+mugduck2_reveal_i5_f20      # 3_mugduck, unlabeled reveal end
+mugduck2_reveal_i7_f20      # 3_mugduck, labeled reveal end
+mugduck3_reveal_i3_f15      # 3_mugduck, no reveal, v111 bad
+mugduck3_reveal_i7_f15      # 3_mugduck, labeled reveal end, v111 bad
+mugduck4_mugmove_i3_f40     # 3_mugduck, no reveal
+mugduck4_mugmove_i5_f40     # 3_mugduck, no reveal, also MC
+mugduck4_mugmove_i7_f40     # 3_mugduck, no reveal, also MC
+multicupduck1_game_i3_f30   # 3_mugduck, no reveal, also IC
+multicupduck1_game_i5_f30   # 3_mugduck, no reveal, also MC, IC
+multicupduck1_game_i7_f30   # 3_mugduck, no reveal, also MC, IC
+multicupduck1_game_i9_f30   # 3_mugduck, no reveal, also MC, IC
+pumpcookie1_reveal_i5_f20   # 4_home
+bagduck1_move_i4_f20        # 5_bagmugduck, no reveal, also MC, HD
+bagduck1_move_i5_f20        # 5_bagmugduck, no reveal, also MC, HD
+bagduck1_move_i3_f50        # 5_bagmugduck, no reveal, also MC, HD
+bagduck1_move_i4_f50        # 5_bagmugduck, no reveal, also MC, HD
+bagduck3_recurse_i5_f15     # 5_bagmugduck, no reveal, also MC, HD, RT
+bagduck4_transfer_i5_f22    # 5_bagmugduck, brief reveal, also MC, HD, RT
+mugduck5_stay_i3_f20        # 5_bagmugduck, no reveal
+mugduck5_stay_i5_f20        # 5_bagmugduck, labeled reveal end
+mugduck6_shuffle_i5_f30     # 5_bagmugduck, unlabeled reveal end, also MC
+mugduck7_shuffle_i3_f30     # 5_bagmugduck, no reveal
+mugduck7_shuffle_i6_f30     # 5_bagmugduck, labeled reveal end, also MC
+handball1_wave_i3_f5        # 6_handball, no reveal, also MC, HD
+handball2_boxoccl_i3_f30    # 6_handball, no reveal, also MC, HD
+handball2_boxoccl_i5_f30    # 6_handball, no reveal, also MC, HD
+handball2_boxoccl_i7_f30    # 6_handball, labeled reveal end, also MC, HD
+handball3_occlpick_i3_f20   # 6_handball, no reveal, also MC, HD
+handball3_occlpick_i5_f20   # 6_handball, no reveal, also MC, HD, SA
+lightball4_occl1x_i10_f40   # 7_ballbounce, 2x labeled reveal
+lightball5_occl2x_i7_f30    # 7_ballbounce, 2x labeled reveal
+lightball5_occl2x_i9_f30    # 7_ballbounce, 2x labeled reveal
+lightball6_occl4x_i8_f15    # 7_ballbounce, labeled reveal end
+lightball6_occl4x_i10_f15   # 7_ballbounce, 2x labeled reveal
+plantcupball1_i3_f35        # 8_plantcupball, no reveal, also RT
+plantcupball1_i5_f35        # 8_plantcupball, no reveal, also RT
+plantcupball1_i7_f35        # 8_plantcupball, unlabeled reveal end, also RT
+plantcupball2_i3_f25        # 8_plantcupball, no reveal, also RT
+plantcupball2_i5_f25        # 8_plantcupball, no reveal, also MC, RT
+plantcupball2_i7_f25        # 8_plantcupball, no reveal, also MC, RT
+plantcupball2_i8_f25        # 8_plantcupball, no reveal, also MC, RT
+plantcupball3_i3_f45        # 8_plantcupball, no reveal
+plantcupball3_i5_f45        # 8_plantcupball, no reveal, also RT
+manycont1_nested_i3_f10     # 9_manycont, no reveal
+manycont1_nested_i5_f10     # 9_manycont, no reveal, also MC, RT
+manycont2_transfer_i3_f10   # 9_manycont, no reveal
+manycont2_transfer_i5_f10   # 9_manycont, brief reveal, also MC, RT
+manycont3_nested_i2_f0      # 9_manycont, no reveal
+manycont3_nested_i4_f0      # 9_manycont, no reveal, also MC, RT
+manycont4_transfer_i3_f10   # 9_manycont, no reveal
+manycont4_transfer_i7_f10   # 9_manycont, brief reveal, also MC, RT
+manycont5_transfer_i3_f5    # 9_manycont, no reveal
+manycont5_transfer_i5_f5    # 9_manycont, brief reveal, also MC, RT
+confuse1_i2_f20             # 10_confuse, no reveal
+confuse1_i4_f20             # 10_confuse, labeled reveal end
+confuse2_i4_f40             # 10_confuse, no reveal
+confuse3_i4_f15             # 10_confuse, no reveal
