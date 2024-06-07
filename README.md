@@ -141,7 +141,7 @@ my_data/
   ...
 ```
 
-Here, `my_video_0_query.png` must an image with the same resolution as the video file, where black pixels represent the background and a non-white color denotes the target object that you want to track. Note that you can change the frame index `0` in the file name to any other 0-based integer value if you want to start tracking something later in the video. Then, simply run the following command:
+Here, `my_video_0_query.png` must an image with the same resolution as the video file, where black pixels represent the background and a white color (or anything except black) denotes the target object that you want to track. Note that you can change the frame index `0` in the file name to any other 0-based integer value if you want to start tracking something later in the video. Then, simply run the following command:
 
 ```bash
 python eval/test.py --resume tcow --name tcow_p1 --gpu_id 0 --data_path my_data/my_video.mp4 --num_queries 1 --extra_visuals 1
